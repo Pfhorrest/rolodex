@@ -28,7 +28,7 @@ class List extends React.Component {
 	}
 	addContact = () => {
 		var newState = this.state;
-		newState.contacts = newState.contacts.concat({
+		newState.contacts.push({
 			id: ( [...newState.contacts].sort()[0] == undefined ) ? 0 : [...newState.contacts].sort((a,b)=>b.id-a.id)[0].id + 1,
 			name: newState.newName,
 			address: newState.newAddress,
