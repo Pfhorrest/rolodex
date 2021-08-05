@@ -1,0 +1,52 @@
+table {
+	width: 100%;
+	margin: 1em auto;
+	padding: 0.25em;
+	background: radial-gradient(#898, #676);
+	border: 3pt outset #898;
+	border-radius: 0.5em 0.5em;
+	box-shadow: 3pt 3pt 3pt rgba(0,0,0,0.5);
+
+	th {
+		color: #DED;
+		text-shadow: 1pt 1pt 1pt rgba(0,0,0,0.25);
+	}
+
+	td {
+		border: 1pt inset #898;
+		padding: 0.5em;
+		background: linear-gradient(#DDD, #EEE);
+		border-radius: 0.25em;
+		box-shadow: 1pt 1pt 1pt rgba(0,0,0,0.5) inset;
+	}
+	
+	button {
+		font-size: 1rem;
+		width: calc(100% + 1em);
+		height: 2.25em;
+		padding: 0;
+		margin: -0.5em 0 -0.5em -0.5em;
+		border: 0;
+		border-radius: 0.25em;
+		background: linear-gradient(#FFF, #DDD);
+		box-shadow: 1pt 1pt 1pt rgba(0,0,0,0.5) inset;
+		
+		&.delete {
+			background: linear-gradient(#FDD, #DBB);
+		}
+		&.add {
+			background: linear-gradient(#DFD, #BDB);
+		}
+	}
+	input[type=text] {
+		font-size: 1rem;
+		width: calc(100% + 0.5em);
+		height: 1.75em;
+		text-align: center;
+		margin: -0.25em 0 -0.5em -0.25em;
+		border: 0;
+		border-radius: 0.125em;
+		background: linear-gradient(#DED, #EFE);
+		box-shadow: 1pt 1pt 1pt rgba(0,0,0,0.125) inset, -1pt -1pt 1pt rgba(0,0,0,0.25), 1pt 1pt 1pt rgba(255,255,255,0.25);
+	}
+}

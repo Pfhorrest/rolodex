@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	padding: 0 1em;
+	font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+	div {
+		max-width: 80em;
+		margin: 1em auto;
+		text-align: center;
+
+		h1 {
+			text-shadow: 2pt 2pt 2pt rgba(0,0,0,0.25);
+		}
+	}
+}
+
