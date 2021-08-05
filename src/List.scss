@@ -37,9 +37,21 @@ table {
 		
 		&.delete {
 			background: linear-gradient(#FDD, #DBB);
+			&:hover, &:focus {
+				background: linear-gradient(#FBB, #D99);
+			}
+			&:active {
+				background: linear-gradient(#F99, #D77);
+			}
 		}
 		&.add {
-			background: linear-gradient(#DFD, #BDB);
+			background: linear-gradient(#CFC, #ADA);
+			&:hover, &:focus {
+				background: linear-gradient(#8F8, #6D6);
+			}
+			&:active {
+				background: linear-gradient(#4F4, #2D2);
+			}
 		}
 	}
 	input[type=text] {
@@ -51,6 +63,9 @@ table {
 		border: 0;
 		border-radius: 0.125em;
 		background: linear-gradient(#DED, #EFE);
+		&:hover, &:active, &:focus {
+			background: linear-gradient(#CDC, #DFD);
+		}
 		box-shadow: 1pt 1pt 1pt rgba(0,0,0,0.125) inset, -1pt -1pt 1pt rgba(255,255,255,0.75) inset, -1pt -1pt 1pt rgba(0,0,0,0.25), 1pt 1pt 1pt rgba(255,255,255,0.25);
 	}
 }
