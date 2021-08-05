@@ -10,6 +10,10 @@ table {
 	th {
 		color: #DED;
 		text-shadow: 1pt 1pt 1pt rgba(0,0,0,0.25);
+		
+		&.actions {
+			width: 6em;
+		}
 	}
 
 	td {

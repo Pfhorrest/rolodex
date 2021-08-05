@@ -53,7 +53,7 @@ class List extends React.Component {
 						<th>
 							Phone Number
 						</th>
-						<th>
+						<th class="actions">
 						</th>
 					</tr>
 				</thead>
