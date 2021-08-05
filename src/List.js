@@ -51,10 +51,9 @@ class List extends React.Component {
 							Address
 						</th>
 						<th>
-							Phone
+							Phone Number
 						</th>
 						<th>
-							Actions
 						</th>
 					</tr>
 				</thead>
